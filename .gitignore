@@ -1,0 +1,26 @@
+# Rakhi Surprise - Git Ignore
+
+# User photos (don't commit personal photos)
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.png
+!assets/images/placeholder.svg
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
